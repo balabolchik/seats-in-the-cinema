@@ -1,12 +1,21 @@
-* {
-    margin: 0;
+body {
+    margin: auto;
+}
+
+.payment {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 div div div{
+    background-color: rgb(252, 250, 175);
+    border: 2px solid transparent;
     border-radius: 2px;
-    text-align: center;
-    text-align-last: center;
-    background-color: rgba(0, 128, 0, 0.336);
+    text-align: right;
+    /* background-color: rgba(0, 128, 0, 0.336); */
 }
 
 div div div:hover{
@@ -16,6 +25,7 @@ div div div:hover{
 }
 
 .hall {
+    margin: auto;
     background-color: gray;
     background-image: url(../img/hall.jpg);
     min-height: 583px;
